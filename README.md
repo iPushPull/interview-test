@@ -1,6 +1,6 @@
 # Interview Test
 
-In this test you'll make requests to the ipushpull API and display the results.
+In this test you'll make requests to the ipushpull API and display the results. It should take up to an hour to complete.
 
 ## Summary of the task
 
