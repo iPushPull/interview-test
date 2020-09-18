@@ -8,7 +8,7 @@ Load and display a list of domains and underneath each domain a list of pages.
 
 You should be able to click on any page item that will navigate to **View Two**.
 
-Use our api end-point below to get a list of domains and pages.
+Use our API end-point below to get a list of domains and pages.
 
 ```
 https://www.ipushpull.com/api/1.0/domain_page_access/
@@ -18,7 +18,7 @@ https://www.ipushpull.com/api/1.0/domain_page_access/
 
 Load and display page content. 
 
-The api end-point below contains a mult-dimensional array of data that represents a page.
+The API end-point below contains a multi-dimensional array of data that represents a page.
 
 Iterate over this array and display each **value**.
 
