@@ -22,7 +22,7 @@ https://www.ipushpull.com/api/1.0/domain_page_access/
 
 Load and display page content. 
 
-The API end-point below contains a multi-dimensional array of data that represents a page.
+The API end-point below returns a multi-dimensional array of data that represents an ipushpull page (a grid of data).
 
 Iterate over this array and display each **value**.
 
@@ -52,5 +52,7 @@ https://www.ipushpull.com/api/1.0/domains/id/[DOMAIN_ID]/page_content/id/[PAGE_I
 ## Code
 
 You can provide a link to your solution via a service such as https://codesandbox.io/ or upload it to a host such as https://github.com/
+
+If you have any questions please email support@ipushpull.com
 
 Thank you for taking the test.
