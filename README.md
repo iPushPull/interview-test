@@ -1,14 +1,18 @@
 # Interview Test
 
-Create an app with two views. You can use any JavaScript framework of your choice.
+In this test you'll make requests to the ipushpull API and display the results.
+
+## Summary of the task
+
+Create an app with two views. You can use any JavaScript framework of your choice but preferably Vue.js.
 
 ## View One
 
-Load and display a list of domains and underneath each domain a list of pages.
+Load and display a list of ipushpull 'domains' and underneath each domain a list of pages.
 
 You should be able to click on any page item that will navigate to **View Two**.
 
-Use our API end-point below to get a list of domains and pages.
+Use our API end-point below to get a list of public domains and pages.
 
 ```
 https://www.ipushpull.com/api/1.0/domain_page_access/
@@ -48,3 +52,5 @@ https://www.ipushpull.com/api/1.0/domains/id/[DOMAIN_ID]/page_content/id/[PAGE_I
 ## Code
 
 You can provide a link to your solution via a service such as https://codesandbox.io/ or upload it to a host such as https://github.com/
+
+Thank you for taking the test.
