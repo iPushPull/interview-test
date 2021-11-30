@@ -22,29 +22,23 @@ https://www.ipushpull.com/api/1.0/domain_page_access/
 
 Load and display page content. 
 
-The API end-point below returns a multi-dimensional array of data that represents an ipushpull page (a grid of data).
+The API end-point below returns an array of data that represents an ipushpull page (a grid of data).
 
 Iterate over this array and display each **value**.
 
 There should also be a button to reload the page content.
 
 ```
-https://www.ipushpull.com/api/1.0/domains/id/[DOMAIN_ID]/page_content/id/[PAGE_ID/
+https://www.ipushpull.com/api/2.0/domains/id/[DOMAIN_ID]/page_content/id/[PAGE_ID/
 // Example output
 {
     ...
     "id": "123",
     "name: "Example",
     ...
-    "content": [
-        [
-            {
-                "value": "Example",
-                ...
-            }
-        ]
-        ...
-    ]
+    "content": {
+        "values": [ [...] ] // grid data
+    }
 }
 
 ```
